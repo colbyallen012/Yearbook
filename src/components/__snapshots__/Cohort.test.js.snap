@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cohort should match the snapshot with all the data passed in correctly 1`] = `
+<main>
+  <div
+    className="staff-container"
+  >
+    <Person
+      key="1"
+      name="Leta"
+      quote="Take a ballet pom"
+      superlative="most likely to learn me React"
+    />
+  </div>
+  <h2>
+    Students
+  </h2>
+  <div
+    className="student-container"
+  >
+    <Student
+      key="1"
+      name="Colby"
+      quote="Im hungry"
+      superlative="most likely to win an eating competition"
+    />
+  </div>
+</main>
+`;

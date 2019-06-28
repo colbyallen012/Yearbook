@@ -1,7 +1,7 @@
 import React from 'react';
-import './Person.css';
+import './Student.css'
 
-const Person = ({name, quote, superlative, photo}) => {
+const Student = ({name, quote, superlative, photo}) => {
   return(
     <div className='card'>
       <img src={photo}/>
@@ -11,4 +11,5 @@ const Person = ({name, quote, superlative, photo}) => {
     </div>
   )
 }
-export default Person;
+
+export default Student
